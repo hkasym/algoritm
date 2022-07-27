@@ -1,191 +1,314 @@
-html,body,.laper_1{
-    padding: 0;
-    margin: 0;
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing:border-box ;box-sizing: border-box ;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height: 100%;width: 100%;font-size: 100%;line-height: 1;font-size: 14px;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+body{
+  background: #F8F9FB;
+}
+/************************* main *****************************/
+.main{
     width: 100%;
+    height: 100vh;
 }
-         /*header*/
-
-
-/*main*/
-.text_first{
-    color: #27292D;
-    font-size: 80px;
-    font-weight: 700;
-}
-.text_second{
-    color: #767672;
-    font-size: 45px;
-    padding-top: 20px;
-}
-.main_first{
+header{
+    margin:2% 5% 0 5%;
+    width: 90%;
+    height: 15%;
     display: flex;
     justify-content: space-between;
-    margin: 0% 5%;
 }
-.main_1_text{
-    padding-top: 5%;
+.header_text{
+    width: 50%;
 }
-.main_1{
-    min-height: 100vh;
-    background: linear-gradient(180deg, #FFFFFF 55.8%, #F7F7F7 92.7%);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.header_text ul{
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+    align-items: center;
 }
-.picturesVector_1{
-    position: absolute;
-    left: 88.65%;
-    right: 9.15%;
-    top:10%;
-    bottom: 80%;
+.header_text ul a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #767672;
 }
-.picturesminicircle{
-    position: absolute;
-    left: 38.06%;
-    right: 65.12%;
-    top: 28.47%;
-    bottom: 75.94%;
+#line{   
+    padding-left: 20px;
+    border-left: 1px #767672 solid;
 }
-.picturesbigcircle{
-    position: absolute;
-    left: 43.96%;
-    right: 49.96%;
-    top: 70.68%;
-    bottom: 28.01%;
+#button{
+    display: block;
+    width: 200px;
+    height: 60px;
+    background: linear-gradient(135deg, #FF3415 0%, #0C357E 67.19%);
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
 }
-.picturesVector{
-    position: absolute;
-    left: 61.31%;
-    right: 47.47%;
-    top: 85.35%;
-    bottom: 8.29%;
+
+/********** slideer ***********/
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {
+    display: none;
+    width: 100%;
+    height: 100%;
 }
-.mainscroll{
-    width: 89px;
-    height: 128px;
-    background: #FFFFFF;
-    border-radius: 40px;
-    position: absolute;
-    left: 5%;
-    right: 95%;
-    top: 80%;
-    bottom: 20%;
-    box-shadow: 1px 1px 1px 5px #aaaaa6;
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  height: 70%;
+  position: relative;
+  margin: auto;
 }
-.photoscrol{
-    position: absolute;
-    left: 35%;
-    right: 50%;
-    top: 40%;
-    bottom: 50%;
+.main_block{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
 }
-/**********main2*********/
+.main_block .text{
+    width: 50%;
+}
+.main_block .image{
+    width: 50%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  width: 63px;
+  height: 12px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 10px;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position: absolute;
+  left:40% ;
+background: linear-gradient(135deg, #0677E0 0%, #B60A14 100%);
+}
+
+.dot1{
+  cursor: pointer;
+  position: absolute;
+  left: 43%;
+  width: 50px;
+  height: 12px;
+  border-radius: 10px;
+  background: #73BCD3;
+  opacity: 0.5;
+}
+
+.dot2{
+  cursor: pointer;
+  position: absolute;
+  left: 45.5%;
+  width: 35px;
+  height: 12px;
+  border-radius: 10px;
+  background: #71A0AA;
+  opacity: 0.2;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
 .main2text{
-    margin: 50px 50px 125px 0px;
-    margin-bottom: 50px;
-    margin-left: 125px;
-    font-weight: 700;
-    font-size: 60px;
+  margin: 50px 50px 125px 0px;
+  margin-bottom: 50px;
+  margin-left: 125px;
+  font-weight: 700;
+  font-size: 60px;
 }
 .curses{
-    width: 1662px;
-    display: flex;
-    margin:auto;
+  width: 1662px;
+  display: flex;
+  margin:auto;
 }
 .curs{
-    width: 257px;
-    height: 316px;
-    background: #F5F5F5;
-    margin: 10px;
-    border-radius:20px ;
+  width: 257px;
+  height: 316px;
+  background: #F5F5F5;
+  margin: 10px;
+  border-radius:20px ;
 }
 .cursstrelka{
-    margin-top: 115%; 
-    margin-left: 35%;
+  margin-top: 115%; 
+  margin-left: 35%;
 }
 .main2fon{
-    position: absolute;
-    left: 50%;
+  position: absolute;
+  left: 50%;
 
 }
 .button{
-    display: flex;
-    margin-right: 7%;
-    justify-content: flex-end;
-    margin-top: 25px;
+  display: flex;
+  margin-right: 7%;
+  justify-content: flex-end;
+  margin-top: 25px;
 }
 .button_cursoss{
-    margin: 40px 0px;
-    width: 270px;
-    height: 50px;
-    font-size: 30px;
-    color: #FFFFFF;
-    border-radius: 30px;
-    text-align: center;
-    background: linear-gradient(135deg, #1370DE 0%, #B60A67 100%);
-    padding-top: 13px;
+  margin: 40px 0px;
+  width: 270px;
+  height: 50px;
+  font-size: 30px;
+  color: #FFFFFF;
+  border-radius: 30px;
+  text-align: center;
+  background: linear-gradient(135deg, #1370DE 0%, #B60A67 100%);
+  padding-top: 13px;
 }
 /**************main3**************/
 .main3{
-    width:100%;
-    height: 100vh;
-    background: url('pictures/main3fon.png') 0 0/100% 100% no-repeat;
+  width:100%;
+  height: 100vh;
+  background: url('pictures/main3fon.png') 0 0/100% 100% no-repeat;
 }
 .main3text{
-    width:355px;
-    height: 44.74px;
-    color: #FFFFFF;
-    margin: auto;
-    padding-top: 6%;
-    font-size: 55px;
-    text-transform: uppercase;
+  width:355px;
+  height: 44.74px;
+  color: #FFFFFF;
+  margin: auto;
+  padding-top: 6%;
+  font-size: 55px;
+  text-transform: uppercase;
 }
 /**************main4**************/
 .main4{
-    margin: 200px 0px;
+  margin: 200px 0px;
 }
 .main4text{
-    width: 531px;
-    height: 38px;
-    text-transform: uppercase;
-    color: #302E22;
-    font-size: 55px;
-    margin:auto;
+  width: 531px;
+  height: 38px;
+  text-transform: uppercase;
+  color: #302E22;
+  font-size: 55px;
+  margin:auto;
 }
 .teachers{
-    padding-top: 50px;
-    width: 1557px;
-    display: flex;
-    margin: auto;
+  padding-top: 50px;
+  width: 1557px;
+  display: flex;
+  margin: auto;
 }
 .teacher{
-    width: 419px;
-    height: 419px;
-    background: #D9D9D9 ;
-    margin: 50px;
-    border-radius: 50%;
+  width: 419px;
+  height: 419px;
+  background: #D9D9D9 ;
+  margin: 50px;
+  border-radius: 50%;
 }
 .buttonteacher{
-    margin: 40px 0px;
-    width: 270px;
-    height: 50px;
-    font-size: 30px;
-    color: #FFFFFF;
-    border-radius: 30px;
-    text-align: center;
-    background: linear-gradient(135deg, #1370DE 0%, #B60A67 100%);
-    padding-top: 13px;
+  margin: 40px 0px;
+  width: 270px;
+  height: 50px;
+  font-size: 30px;
+  color: #FFFFFF;
+  border-radius: 30px;
+  text-align: center;
+  background: linear-gradient(135deg, #1370DE 0%, #B60A67 100%);
+  padding-top: 13px;
 }
-        /*footer*/
+      /*footer*/
 .footer_logotip{
-    position: absolute;
-    left: 5%;
-    right: 70%;
-    top: 102%;
-    bottom: 20%;
+  position: absolute;
+  left: 5%;
+  right: 70%;
+  top: 102%;
+  bottom: 20%;
 }
 .footer_text_1{
-    height: 200px;
-    position: absolute;
-    left: 53.06%;
-    right: 22.12%;
-    font-size: 20px;
+  height: 200px;
+  position: absolute;
+  left: 53.06%;
+  right: 22.12%;
+  font-size: 2a0px;
+}
+.text{
+  position: relative;
+}
+
+.text_first{
+  position: absolute;
+  font-size: 4em;
+left: 2%;
+right: 51.62%;
+top: 3.71%;
+bottom: 93.01%;
+
+  
+}
+.text_second{
+  position: absolute;
+  font-size: 3em;
+left: 2%;
+right: 44.09%;
+top: 20%;
+bottom: 89.45%;
+color: #767672;
+
+
+}
+
+.curs1{
+  position: absolute;
+left: 20.48%;
+right: 68.26%;
+top: 17.86%;
+bottom: 77.71%;
+
+background: linear-gradient(135deg, #1713DE 0%, #B60AA5 100%);
 }

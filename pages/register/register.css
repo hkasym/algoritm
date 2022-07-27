@@ -1,0 +1,69 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing:border-box ;box-sizing: border-box ;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+
+
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    background: #F8F9FB;
+}
+.main_reg{
+    width: 43%;
+    height: 100%;
+}
+.main_photo{
+    width: 43%;
+    height: 100%;
+}
+.main_photo img{
+    width: 100%;
+    height: 100%;
+}
+.reg_form{
+    margin: 50px;
+}
+.reg_form div{
+    margin: 20px;
+    width: 600px;
+}
+.reg_form input{
+    width: 600px;
+    height: 80px;
+    border-radius: 25px;
+    border: 1px #CCCCCC solid;
+    font-size: 25px;
+}
+.reg_form input ::placeholder{
+    padding: 20px;
+}
+.first_text{
+    font-size: 36px; 
+}
+.second_text{
+    font-size: 20px;
+}
+.reg_form button{
+    width: 600px;
+    height: 80px;
+    border-radius: 25px;
+    background: linear-gradient(180deg, #1389DE 0%, #9E0AB6 100%);
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.password_text{
+    text-align: right;
+    margin: 0 20px;
+}
+.password_text a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #0A6BB2;
+}
