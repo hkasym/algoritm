@@ -79,7 +79,7 @@ justify-content: space-around;
 
 }
 
-#firstTab {
+.kurslarSection .kurslar:hover{
 
     background: linear-gradient(135deg, #1713DE 0%, #B60AA5 100%);
 }
@@ -88,13 +88,12 @@ justify-content: space-around;
     margin: 0 15% 0 15%;
 
 
-    background-color: rgb(199, 108, 207);
+    background: #FFFFFF;
 
     opacity: 0.2;
     height: 173px;
     width: 177px;
     border-radius: 0 50% 50% 50%;
-
 }
 
 #firstTab div{
