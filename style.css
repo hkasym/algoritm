@@ -185,18 +185,35 @@ background: linear-gradient(135deg, #0677E0 0%, #B60A14 100%);
   display: flex;
   margin:auto;
 }
-.curs{
+.kurslar{
   width: 257px;
   height: 316px;
   background: #F5F5F5;
   margin: 10px;
   border-radius:20px ;
+ 
+   
+}
+
+.kurslar div{
+  margin: 0 15% 0 15%;
+
+
+  background: #FFFFFF;
+
+  opacity: 0.2;
+  height: 173px;
+  width: 177px;
+  border-radius: 0 50% 50% 50%;
+}
+
+.kurslar:hover{
+  background: linear-gradient(135deg, #1713DE 0%, #B60AA5 100%);
 }
 
 
-.cursstrelka{
-  margin-top: 115%; 
-  margin-left: 35%;
+.kursstrelka{
+  margin: 49% auto 0 40%;
 }
 .main2fon{
   position: absolute;
@@ -235,9 +252,7 @@ background: linear-gradient(135deg, #0677E0 0%, #B60A14 100%);
   font-size: 55px;
   text-transform: uppercase;
 }
-.curses a .curs:hover{
-  background: linear-gradient(135deg, #1713DE 0%, #B60AA5 100%);
-}
+
 /**************main4**************/
 .main4{
   margin: 200px 0px;
@@ -287,15 +302,6 @@ background: linear-gradient(135deg, #0677E0 0%, #B60A14 100%);
   position: absolute;
   left: 53.06%;
   right: 22.12%;
-  font-size: 2a0px;
+  font-size: 20px;
 }
 
-.curs1{
-  position: absolute;
-left: 20.48%;
-right: 68.26%;
-top: 17.86%;
-bottom: 77.71%;
-
-background: linear-gradient(135deg, #1713DE 0%, #B60AA5 100%);
-}
