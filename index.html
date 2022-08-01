@@ -21,7 +21,7 @@
                 <li><a href="">Galereýa</a></li>
                 <li><a href="">Biz barada</a></li>
                 <li><a href="pages/register/register.html" id="line">Iceri gir</a></li>
-                <li><a href="pages/login/register.html" id="button" >Agza bol</a></li>
+                <li><a href="pages/login/login.html" id="button" >Agza bol</a></li>
             </ul>
         </div>
     </header>
@@ -43,18 +43,20 @@
             </div>
         </div>
     </div>
-    
     <div class="mySlides fade">
       <div class="numbertext">2 / 3</div>
-      <img src="img_snow_wide.jpg" style="width:100%">
+      <img src="img_mountains_wide.jpg" style="width:100%">
       <div class="text">Caption Two</div>
     </div>
-    
+
+
     <div class="mySlides fade">
       <div class="numbertext">3 / 3</div>
-      <img src="img_mountains_wide.jpg" style="width:100%">
+      <img src="img_snow_wide.jpg" style="width:100%">
       <div class="text">Caption Three</div>
     </div>
+    
+
     </div>
     <br>
     
@@ -64,34 +66,7 @@
       <span class="dot2" onclick="currentSlide(3)"></span> 
     </div>
     
-    <script>
-    let slideIndex = 1;
-    showSlides(slideIndex);
     
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-    
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-    
-    function showSlides(n) {
-      let i;
-      let slides = document.getElementsByClassName("mySlides");
-      let dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {slideIndex = 1}    
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-      }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";  
-      dots[slideIndex-1].className += " active";
-    }
-    </script>
 </div>
 <div class="main2">
     <h1 class="main2text">Kurslarymyz</h1>
@@ -142,5 +117,6 @@
 </div>
 <footer>
 </footer> 
+<script src="app.js"></script>
 </body>
 </html>             
