@@ -12,6 +12,11 @@ html,body,.laper_1{
     font-size: 80px;
     font-weight: 700;
 }
+
+.main div{
+    width: 50vw;
+}
+
 .text_second{
     color: #767672;
     font-size: 45px;
