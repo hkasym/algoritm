@@ -65,7 +65,7 @@ justify-content: space-around;
 
 }
 
-.main .kurslar {
+.kurslarSection .kurslar {
     border-radius: 25px;
     background: #F5F5F5;
     display: inline-block;
