@@ -1,112 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.css">
-<link type="text/css" href="../../bootstrap/css/bootstrap.min.css">
-<link type="text/css" href="../../bootstrap/css/bootstrap-responsive.css">
-<link type="text/css" href="../../bootstrap/css/bootstrap-responsive.min.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../bootstrap/css/bootstrap.css"
+    />
+    <link type="text/css" href="../../bootstrap/css/bootstrap.min.css" />
+    <link type="text/css" href="../../bootstrap/css/bootstrap-responsive.css" />
+    <link
+      type="text/css"
+      href="../../bootstrap/css/bootstrap-responsive.min.css"
+    />
 
-<!-- my CSS -->
-    <link rel="stylesheet" href="styles/styles.css">
+    <!-- my CSS -->
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="../../universal.css" />
     <title>Kurslar</title>
-</head>
-    <body>
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../../index.html" class="logotip"><img src="../../pictures/logotip.png"  alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../../index.html" class="logotip"
+          ><img src="../../pictures/logotip.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kurslarymyz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mugallymlar</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Galereýa</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Biz barada</a>
+            </li>
 
-                        <li class="nav-item"><a class="nav-link" href="#">Kurslarymyz</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Mugallymlar</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Galereýa</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Biz barada</a></li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarScrollingDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Agza
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarScrollingDropdown"
+              >
+                <li class="">
+                  <a class="dropdown-item" href="#">Içeri gir</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li class=""><a class="dropdown-item" href="#">Agza bol</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-                        <li class="nav-item dropdown" >
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Agza
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                <li class=""><a class="dropdown-item" href="#">Içeri gir</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li class=""><a class="dropdown-item" href="#">Agza bol</a></li>
-                            </ul>
-                        </li>
+    <div class="thecontainer">
+      <div class="tree">
+        <a class="treeContent" , href="../../index.html">
+          <h3 class="treeTab">Baş sahypa</h3>
+        </a>
 
-                    </ul>
+        <img
+          class="treeContent"
+          ,
+          src="../../pictures/arrowTriangle.png"
+          alt=""
+        />
 
-                 </div>
-             </div>
-        </nav>
+        <a class="treeContent" , href="#">
+          <h3 class="treeTab">Kurslarymyz</h3>
+        </a>
+      </div>
 
+      <h1 class="">Kurslarymyz</h1>
 
+      <div class="row kurslarSection">
+        <div class="gridCell col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="squares hoveredSquares">
+            <div class="figures"></div>
+            <h2>
+              Türkmen <br />
+              dili
+            </h2>
+          </div>
+        </div>
+        <div class="gridCell col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="squares hoveredSquares">
+            <div class="figures"></div>
+            <h2>Iňlis <br />dili</h2>
+          </div>
+        </div>
+        <div class="gridCell col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="squares hoveredSquares">
+            <div class="figures"></div>
+            <h2>Rus <br />dili</h2>
+          </div>
+        </div>
+        <div class="gridCell col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="squares hoveredSquares">
+            <div class="figures"></div>
+            <h2>Fransuz <br />dili</h2>
+          </div>
+        </div>
+        <div class="gridCell col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="squares hoveredSquares">
+            <div class="figures"></div>
+            <h2>Hytaý <br />dili</h2>
+          </div>
+        </div>
+        <div class="gridCell col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="squares hoveredSquares">
+            <div class="figures"></div>
+            <h2>Yapon <br />dili</h2>
+          </div>
+        </div>
+        <div class="gridCell col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="squares hoveredSquares">
+            <div class="figures"></div>
+            <h2>Kompýuter <br />Başlangyjy</h2>
+          </div>
+        </div>
+        <div class="gridCell col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="squares hoveredSquares">
+            <div class="figures"></div>
+            <h2>Kompýuter <br />Grafikasy</h2>
+          </div>
+        </div>
+        <div class="gridCell col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="squares hoveredSquares">
+            <div class="figures"></div>
+            <h2>Proyektirleme <br />we Dizaýn</h2>
+          </div>
+        </div>
+        <div class="gridCell col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="squares hoveredSquares">
+            <div class="figures"></div>
+            <h2>Kompýuteri <br />abatlamak</h2>
+          </div>
+        </div>
+        <div class="gridCell col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="squares hoveredSquares">
+            <div class="figures"></div>
+            <h2>Programmirleme</h2>
+          </div>
+        </div>
+        <div class="gridCell col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="squares hoveredSquares">
+            <div class="figures"></div>
+            <h2>Robot Tehnikasy</h2>
+          </div>
+        </div>
+        <div class="gridCell col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="squares hoveredSquares">
+            <div class="figures"></div>
+            <h2>Matematika</h2>
+          </div>
+        </div>
+        <div class="gridCell col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="squares hoveredSquares">
+            <div class="figures"></div>
+            <h2>Mental <br />Arifmetika</h2>
+          </div>
+        </div>
+        <div class="gridCell col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="squares hoveredSquares">
+            <div class="figures"></div>
+            <h2>Himiýa</h2>
+          </div>
+        </div>
+        <div class="gridCell col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="squares hoveredSquares">
+            <div class="figures"></div>
+            <h2>Fizika</h2>
+          </div>
+        </div>
+        <div class="gridCell col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="squares hoveredSquares">
+            <div class="figures"></div>
+            <h2>Taryh</h2>
+          </div>
+        </div>
+        <div class="gridCell col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="squares hoveredSquares">
+            <div class="figures"></div>
+            <h2>Aýdym-saz</h2>
+          </div>
+        </div>
+        <div class="gridCell col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="squares hoveredSquares">
+            <div class="figures"></div>
+            <h2>Dil Düzediş</h2>
+          </div>
+        </div>
+      </div>
+    </div>
 
-
-
-
-
-
-
-            <div class="thecontainer">
-                        
-            <div class="tree">
-                <a class="treeContent", href="../../index.html">
-                    <h3 class="treeTab">Baş sahypa</h3>
-                </a>
-                
-                <img class="treeContent", src="../../pictures/arrowTriangle.png" alt="">
-
-
-                <a class="treeContent", href="#">
-                    <h3 class="treeTab">Kurslarymyz</h3>
-                </a>
-            </div>
-
-
-
-
-            <h1 class="">Kurslarymyz</h1>
-
-
-
-                <div class="row kurslarSection"> 
-                    <div class=" gridCell col-lg-2 col-md-3 col-sm-4 col-6"><div class="squares hoveredSquares"><div class="figures"></div><h2>Türkmen <br> dili</h2></div></div>
-                    <div class=" gridCell col-lg-2 col-md-3 col-sm-4 col-6"><div class="squares hoveredSquares"><div class="figures"></div><h2>Iňlis <br>dili</h2></div></div>
-                    <div class=" gridCell col-lg-2 col-md-3 col-sm-4 col-6"><div class="squares hoveredSquares"><div class="figures"></div><h2>Rus <br>dili</h2></div></div>
-                    <div class=" gridCell col-lg-2 col-md-3 col-sm-4 col-6"><div class="squares hoveredSquares"><div class="figures"></div><h2>Fransuz <br>dili</h2></div></div>
-                    <div class=" gridCell col-lg-2 col-md-3 col-sm-4 col-6"><div class="squares hoveredSquares"><div class="figures"></div><h2>Hytaý <br>dili</h2></div></div>
-                    <div class=" gridCell col-lg-2 col-md-3 col-sm-4 col-6"><div class="squares hoveredSquares"><div class="figures"></div><h2>Yapon <br>dili</h2></div></div>
-                    <div class=" gridCell col-lg-2 col-md-3 col-sm-4 col-6"><div class="squares hoveredSquares"><div class="figures"></div><h2>Kompýuter <br>Başlangyjy</h2></div></div>
-                    <div class=" gridCell col-lg-2 col-md-3 col-sm-4 col-6"><div class="squares hoveredSquares"><div class="figures"></div><h2>Kompýuter <br>Grafikasy</h2></div></div>
-                    <div class=" gridCell col-lg-2 col-md-3 col-sm-4 col-6"><div class="squares hoveredSquares"><div class="figures"></div><h2>Proyektirleme <br>we Dizaýn</h2></div></div>
-                    <div class=" gridCell col-lg-2 col-md-3 col-sm-4 col-6"><div class="squares hoveredSquares"><div class="figures"></div><h2>Kompýuteri <br>abatlamak</h2></div></div>
-                    <div class=" gridCell col-lg-2 col-md-3 col-sm-4 col-6"><div class="squares hoveredSquares"><div class="figures"></div><h2>Programmirleme</h2></div></div>
-                    <div class=" gridCell col-lg-2 col-md-3 col-sm-4 col-6"><div class="squares hoveredSquares"><div class="figures"></div><h2>Robot Tehnikasy</h2></div></div>
-                    <div class=" gridCell col-lg-2 col-md-3 col-sm-4 col-6"><div class="squares hoveredSquares"><div class="figures"></div><h2>Matematika</h2></div></div>
-                    <div class=" gridCell col-lg-2 col-md-3 col-sm-4 col-6"><div class="squares hoveredSquares"><div class="figures"></div><h2>Mental <br>Arifmetika</h2></div></div>
-                    <div class=" gridCell col-lg-2 col-md-3 col-sm-4 col-6"><div class="squares hoveredSquares"><div class="figures"></div><h2>Himiýa</h2></div></div>
-                    <div class=" gridCell col-lg-2 col-md-3 col-sm-4 col-6"><div class="squares hoveredSquares"><div class="figures"></div><h2>Fizika</h2></div></div>
-                    <div class=" gridCell col-lg-2 col-md-3 col-sm-4 col-6"><div class="squares hoveredSquares"><div class="figures"></div><h2>Taryh</h2></div></div>
-                    <div class=" gridCell col-lg-2 col-md-3 col-sm-4 col-6"><div class="squares hoveredSquares"><div class="figures"></div><h2>Aýdym-saz</h2></div></div>
-                    <div class=" gridCell col-lg-2 col-md-3 col-sm-4 col-6"><div class="squares hoveredSquares"><div class="figures"></div><h2>Dil Düzediş</h2></div></div>
-                </div>
-             </div>
-
-
-        
-
-        <!--Bootstrap-->
-        <script src="../../bootstrap/js/bootstrap.min.js"></script>
-        <!-- own js -->
-        <script src="js/app.js"></script>
-        
-
-    </body>
+    <!--Bootstrap-->
+    <script src="../../bootstrap/js/bootstrap.min.js"></script>
+    <!-- own js -->
+    <script src="js/app.js"></script>
+  </body>
 </html>
