@@ -48,6 +48,9 @@
     margin: 0 10% 0 10%;
 }
 
+/* .kurslarSection, .gridCell, .squares, .figures .squares:hover {
+    z-index: -1;
+} */
 
 
 .gridCell{
@@ -64,7 +67,7 @@
     background: #F5F5F5;
 }
 
-.squares:hover{
+.hoveredSquares:hover{
     background: linear-gradient(135deg, #1713DE 0%, #B60AA5 100%);
 }
 
@@ -88,7 +91,6 @@
     border-radius: 0 50% 50% 50%;
 
     opacity: 0.2;
-
 }
 
 
