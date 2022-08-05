@@ -1,8 +1,3 @@
-body .container{
-    display: block;
-    margin: 2% 5% 2% 5%;
-}
-
 .textArea{
     margin: 2.5% 0;
 }
@@ -12,16 +7,17 @@ body .container{
 }
 
 .mainText{
-    font-size: 3em;
+    font-size: 2.5em;
     color: #302E22;
+    text-align: center;
 }
 .secondaryText{
     font-size: 1.5em;
     color: #767672;
+
+    text-align: center;
 }
 
-.teachersCircles{
-}
 
 .teachersCircles div{
     margin: 2%;
