@@ -6,6 +6,8 @@ nav {
     align-items: center;
     min-height: 8vh;
 
+    z-index: 1200;
+
     
 }
 
