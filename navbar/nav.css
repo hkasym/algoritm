@@ -6,6 +6,8 @@ nav {
     align-items: center;
     min-height: 8vh;
 
+    z-index: 1200;
+
     
 }
 
@@ -61,6 +63,12 @@ nav ul{
     transition: all 0.3s ease;
 }
 
+label a img{
+    width: 30vw;
+}
+
+
+
 
 
 
@@ -68,6 +76,7 @@ nav ul{
 /* ********************mobile************************ */
 
 @media screen and (max-width: 1000px){
+  
     body {
         overflow-x: hidden;
     }
@@ -128,4 +137,20 @@ opacity: 0;
 .toggle .line4{
     opacity: 0;
         
+}
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    label a img{
+        width: 70vw;
+    }
+    
+    
+
+
+    
 }

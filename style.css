@@ -4,40 +4,9 @@ body{
   background: #F8F9FB;
 }
 /************************* main *****************************/
-nav{
-  margin:2% 5% 0 5%;
-  width: 90%;
-  height: 15%;
-  display: flex;
-  justify-content: space-between;
-}
-nav ul{
-  width: 65%;
-  display: flex;
-  list-style: none;
-  justify-content:space-around;
-  align-items: center;
-} ul a{
-  text-decoration: none;
-  font-size: 18px;
-  color: #767672;
-}
-#line{   
-  padding-left: 20px;
-  border-left: 1px #767672 solid;
-}
-#button{
-  display: block;
-  width: 150px;
-  height: 50px;
-  background: linear-gradient(135deg, #FF3415 0%, #0C357E 67.19%);
-  border-radius: 50px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #FFFFFF;
-}
+
+
+
 
 /********** slideer ***********/
 * {box-sizing: border-box}
