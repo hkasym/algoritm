@@ -40,19 +40,6 @@
 }
 
 
-
-
-
-/* Kurslar area */
-.thecontainer{
-    margin: 0 10% 0 10%;
-}
-
-/* .kurslarSection, .gridCell, .squares, .figures .squares:hover {
-    z-index: -1;
-} */
-
-
 .gridCell{
     
     aspect-ratio: 1 / 1;

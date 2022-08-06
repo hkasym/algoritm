@@ -1,0 +1,10 @@
+@media screen and (max-width:600px) {
+#logoPhoto {
+        width: 70vw;
+    }
+}
+
+.theContainer{
+    display: block;
+    margin: 2% 10% 2% 10%;
+}
