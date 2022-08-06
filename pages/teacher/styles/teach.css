@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    width: 100%;
+}
+.teach_block{
+    width: 90%;
+    margin: 5%;
+    
+}
+
+.teach_block h1{
+    text-align: center;
+}
+.teach_block h6{
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.teach_photo{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.teach_photo .photo{
+    width: 300px;
+    height: 300px;
+    background: #D9D9D9;
+    margin: 20px;
+    border-radius: 100%;
+}
+@media(max-width:500px){
+    .teach_photo .photo{
+        width: 200px;
+        height: 200px;
+    }
+    .teach_block h1{
+        font-size: 26px;
+    }
+    .teach_block h6{
+        font-size: 12px;
+    }
+}
