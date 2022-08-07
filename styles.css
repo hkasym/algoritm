@@ -34,18 +34,7 @@ body{
   background: linear-gradient(135deg, #1370DE 0%, #B60A67 100%);
   align-items: center;
 }
-@media screen and (max-width: 500px){
-  .buttonArea .button{
-    font-size: 1.2em;
-  }
-}
-@media screen and (max-width: 300px){
-  .buttonArea .button{
-    font-size: 1em;
 
-  }
-
-}
 /************** Video section**************/
 .videoSection{
   height: 100vh;
@@ -106,6 +95,9 @@ body{
   .teachersText {
     font-size: 2em;
   }
+  .buttonArea .button{
+    font-size: 1.2em;
+  }
 }
 
 @media screen and (max-width:360px){
@@ -115,4 +107,12 @@ body{
   .teachersText{
     font-size: 1.5em;
   }
+}
+
+@media screen and (max-width: 300px){
+  .buttonArea .button{
+    font-size: 1em;
+
+  }
+
 }
