@@ -104,10 +104,29 @@ body{
         height: 100%;
     }
     .reg_logo{
-        width: 250px;
         margin: auto;
     }
     .reg_form{
         margin: auto;
+    }
+}
+@media (max-width:500px){
+    .reg_form div{
+        margin: 20px 0px;
+    }
+    .reg_form input,.reg_form button{
+        height: 40px;
+    }
+    .reg_logo{
+        width: 225px;
+    }
+    .first_text{
+        font-size: 28px;
+    }
+    .second_text,.password_text,.footer_text_first  a{
+        font-size: 14px;
+    }
+    .footer_text_second a{
+        font-size: 18px;
     }
 }
