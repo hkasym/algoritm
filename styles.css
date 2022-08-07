@@ -17,59 +17,6 @@ body{
   font-size: 5em;
 }
 
-
-
-
-.gridCell{
-    
-  aspect-ratio: 1 / 1;
-}
- .gridCell a .squares:hover{
-  background: linear-gradient(135deg, #1713DE 0%, #B60AA5 100%);
-}
-
-.squares{
-  aspect-ratio: 1 / 1;
-  position: relative;
-  margin: 1% 2% 1% 2%;
-
-  border-radius: 15%;
-  background: #F5F5F5;
-}
-
-
-
-.squares h2{
-  opacity: 1;
-  font-family: sans-serif;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1em;
-  font-weight: 400;
-  letter-spacing: 0em;
-  text-align: center;
-  color: #908989;
-
-  padding-bottom: 5%;
-  padding-top: 5%;
-}
-.figures {
-  background: #FFFFFF ;
-  margin: 0  10%  0 10%;
-  aspect-ratio: 1 / 1;
-  border-radius: 0 50% 50% 50%;
-
-  opacity: 0.2;
-}
-
-.coursesArrow{
-  margin-left: 40%;
-}
-
-
-
-
-
 .buttonArea{
   display: block;
   width: 100%;

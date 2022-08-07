@@ -45,6 +45,9 @@
     
     aspect-ratio: 1 / 1;
 }
+.gridCell a .squares:hover{
+    background: linear-gradient(135deg, #1713DE 0%, #B60AA5 100%);
+  }
 
 .squares{
     aspect-ratio: 1 / 1;
@@ -81,6 +84,36 @@
     opacity: 0.2;
 }
 
+
+
+.turkmenCourse{
+    background: url('../../../pictures/turkmen.jpg') 0 0/100% 100%  no-repeat;
+    opacity: 100%;
+}
+.englishCourse{
+    background: url('../../../pictures/american.jpg') 0 0/100% 100%  no-repeat;
+    opacity: 100%;
+}
+.russianCourse{
+    background: url('../../../pictures/russian.jpg') 0 0/100% 100%  no-repeat;
+    opacity: 100%;
+}
+.frenchCourse{
+    background: url('../../../pictures/french.jpg') 0 0/100% 100%  no-repeat;
+    opacity: 100%;
+}
+.chineseCourse{
+    background: url('../../../pictures/chinese.jpg') 0 0/100% 100%  no-repeat;
+    opacity: 100%;
+}
+.japaneseCourse{
+    background: url('../../../pictures/japanese.jpg') 0 0/100% 100%  no-repeat;
+    opacity: 100%;
+}
+
+.coursesArrow{
+    margin-left: 40%;
+  }
 
 
 
