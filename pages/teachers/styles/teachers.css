@@ -1,3 +1,39 @@
+/* ******************      tree          ************************** */
+
+.tree {
+    display: block;
+    margin: 0 5% 0 5%;
+}
+
+.treeContent{
+    display: inline-block;
+    height: 10%;
+}
+
+.tree a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.tree img {
+    margin: 0 1% 0 1%;
+
+
+    height: 15.20252990722659px;
+    width: auto;
+    left: 340.550537109375px;
+    top: 172.879638671875px;
+    border-radius: 0px;
+    align-items: center;
+
+}
+
+
+/* *************         Teachers      ********************* */
+
+
 .textArea{
     margin: 2.5% 0;
 }
@@ -19,7 +55,7 @@
 }
 
 
-.teachersCircles div{
+.teachersCircles a div{
     margin: 2%;
 
     aspect-ratio: 1 / 1;
